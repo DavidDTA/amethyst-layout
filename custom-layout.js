@@ -10,7 +10,7 @@ function layout() {
       const sqrt = Math.sqrt(windows.length);
       const rows = Math.floor(sqrt);
       const cols = Math.ceil(sqrt);
-      eturn windows.reduce(
+      return windows.reduce(
         (frames, w, index) => {
           const row = Math.floor(index / cols);
           const col = index % cols;
